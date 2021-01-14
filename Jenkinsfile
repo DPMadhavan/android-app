@@ -8,7 +8,7 @@ pipeline{
             steps {
 		    echo "${BRANCH_NAME}"               
                 sh 'rm -rf localzi-andriod-app'                
-                sh 'git clone https://$Sakthi_UserName_USR:$Sakthi_UserName_PSW@github.com/localzi/localzi-andriod-app.git'
+                sh 'git clone https://github.com/DPMadhavan/andriod-app.git'
             }
         }
 		stage('clean and build') {
