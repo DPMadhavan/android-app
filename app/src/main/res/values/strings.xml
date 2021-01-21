@@ -1,4 +1,3 @@
-<resources>
-    #<string name="app_name">localzi-android-app</string>
+<resources>   
     <string name="app_name">android-app</string>
 </resources>
